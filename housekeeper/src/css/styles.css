@@ -1,0 +1,158 @@
+body {
+    background-image: url('../images/img4.png') !important;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+footer p {
+    font-size: 135% !important;
+    letter-spacing: 1.8 !important;
+    line-height: 1.5 !important;
+}
+
+footer {
+    background-color: #222831 !important;
+    color: teal !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    padding: 7% 5% 1% !important;
+}
+
+#mainArea {
+    color: white !important;
+}
+
+#mainArea::before {
+    border-radius: 0 0 50% 50% !important;
+}
+
+.mainTag {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.mainTag:hover {
+    color: teal !important;
+}
+
+.mainTag h1 {
+    font-size: 2.9rem !important;
+}
+
+.design {
+    margin: 4% !important;
+    width: 10% !important;
+}
+
+.boxContainer {
+    /* opacity: 0.9; */
+    margin-top: -2% !important;
+    background: #0cebeb !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb) !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+    box-shadow: 2px 2px 8px 5px #888888 !important;
+    z-index: 2 !important;
+    border-radius: 2% !important;
+    padding: 1.15% !important;
+    width: 1090px !important;
+    height: 605px !important;
+}
+
+.btnSize {
+    width: 100% !important;
+    border-radius: 42px !important;
+    font-size: large !important;
+}
+
+.img1 {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: .5 !important;
+    -webkit-clip-path: polygon(10 0, 0 100px, 100px 80px, 100px 0) !important;
+    clip-path: polygon(0 0, 0 980px, 100px 800px, 1000px 0) !important;
+}
+
+.userImage {
+    width: 32% !important;
+    height: 20% !important;
+}
+
+.boxContainer {
+    z-index: 2 !important;
+    opacity: 1.2 !important;
+}
+
+.connect {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    color: teal !important;
+}
+
+.connect :hover {
+    color: #004d7a !important;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+    .endBox {
+        margin-bottom: -20% !important;
+    }
+
+    .endBox p {
+        font-size: 17.8px !important;
+    }
+
+    .img1 {
+        height: 100% !important;
+    }
+
+    #formArea {
+        margin: 1% !important;
+    }
+
+    .boxContainer {
+        align-self: center !important;
+        margin: 13% 5.6% !important;
+        line-height: 2.5 !important;
+        width: 89% !important;
+        height: 100% !important;
+    }
+
+    img {
+        height: 120% !important;
+    }
+
+    .boxContainer1 {
+        padding: 4% !important;
+        margin: 13% !important;
+        line-height: 2 !important;
+        width: 80% !important;
+        height: 350px !important;
+    }
+}
+
+.boxContainer1 {
+    box-shadow: 2px 2px 8px 5px #888888 !important;
+    z-index: 2 !important;
+    border-radius: 2% !important;
+    padding: 1.15% !important;
+    width: 500px !important;
+    height: 300px !important;
+    background: #0cebeb !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb) !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb) !important;
+}
+
+.btnSize1 {
+    width: 75% !important;
+    border-radius: 42px !important;
+}
+
+::placeholder {
+    text-align: center !important;
+}
